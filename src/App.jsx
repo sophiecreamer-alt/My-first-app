@@ -9,7 +9,7 @@ const NEWS = [
     title: 'Q3 Planning Wrap-Up: Priorities Set',
     date: '18 Jun 2026',
     summary:
-      'We've finalised our Q3 roadmap. Key themes include platform reliability, onboarding improvements, and two new strategic partnerships.',
+      "We've finalised our Q3 roadmap. Key themes include platform reliability, onboarding improvements, and two new strategic partnerships.",
     author: 'Sophie C',
     initials: 'SC',
   },
