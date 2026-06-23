@@ -6,45 +6,26 @@ const NEWS = [
   {
     id: 1,
     category: 'announcement',
-    title: 'Q3 Planning Wrap-Up: Priorities Set',
-    date: '18 Jun 2026',
+    title: '15 Days Out — Xerocon London',
+    date: '23 Jun 2026',
     summary:
-      "We've finalised our Q3 roadmap. Key themes include platform reliability, onboarding improvements, and two new strategic partnerships.",
+      "We're 15 days out from Xerocon London and the team is in full prep mode. All key materials — narratives, storybooks, messaging templates, and the need-to-know guide — are linked in the Resources section. Make sure you've reviewed them ahead of the event.",
+    xeroconLink: 'https://docs.google.com/document/d/1xZXE-oJgKQ6J8trXsRyKVrmP1bZ6-In4oiQGk9S4yWQ/edit?usp=drivesdk',
     author: 'Sophie C',
     initials: 'SC',
   },
   {
     id: 2,
     category: 'initiative',
-    title: 'Project Aurora — Phase 2 Kicks Off',
-    date: '15 Jun 2026',
+    title: 'The Corner Store — What You Need to Know',
+    date: '23 Jun 2026',
     summary:
-      'Phase 2 of Project Aurora begins this week. The team will focus on API integration and data migration with a target go-live in late July.',
-    author: 'Alex R',
-    initials: 'AR',
-  },
-  {
-    id: 3,
-    category: 'update',
-    title: 'Capacity Review: July Availability',
-    date: '12 Jun 2026',
-    summary:
-      'Following leave requests and contractor renewals, July capacity has been updated. Please check the Calendar section for the latest in-flight work.',
-    author: 'Jordan M',
-    initials: 'JM',
-  },
-  {
-    id: 4,
-    category: 'initiative',
-    title: 'Customer Feedback Loop — New Process',
-    date: '10 Jun 2026',
-    summary:
-      'A new structured feedback loop has been introduced for all customer-facing initiatives. Templates and guidance are available in Resources.',
+      'The Corner Store is a key part of our Xerocon story this year. It brings together our product narrative in a way that is clear, compelling, and built for partners. Review the full brief and make sure you can speak to it confidently on the day.',
     author: 'Sophie C',
     initials: 'SC',
   },
   {
-    id: 5,
+    id: 3,
     category: 'announcement',
     title: 'Welcome to the Team Hub!',
     date: '1 Jun 2026',
@@ -52,16 +33,6 @@ const NEWS = [
       'This is your central place for news, updates, priorities, and team resources. Bookmark it and check back regularly for the latest.',
     author: 'Team Hub',
     initials: 'TH',
-  },
-  {
-    id: 6,
-    category: 'update',
-    title: 'OKR Mid-Quarter Check-In Results',
-    date: '8 Jun 2026',
-    summary:
-      'Mid-quarter OKR results are in. Three key results are on track, two need attention. Full breakdown shared at the team all-hands.',
-    author: 'Jordan M',
-    initials: 'JM',
   },
 ];
 
@@ -125,57 +96,75 @@ const CALENDAR_ITEMS = [
 const RESOURCES = [
   {
     id: 1,
-    icon: '📊',
+    icon: '📋',
     iconClass: 'resource-icon-blue',
-    title: 'Q3 Roadmap Deck',
-    description: 'Full Q3 roadmap including priorities, timelines, and owner assignments.',
-    href: '#',
-    linkLabel: 'Open in Drive',
+    title: 'Xerocon London — Need to Know',
+    description: 'Everything you need ahead of the event: schedule, logistics, key contacts, and what to expect on the day.',
+    href: 'https://docs.google.com/document/d/1xZXE-oJgKQ6J8trXsRyKVrmP1bZ6-In4oiQGk9S4yWQ/edit?usp=drivesdk',
+    linkLabel: 'Open Doc',
   },
   {
     id: 2,
-    icon: '🗂️',
+    icon: '🇬🇧',
     iconClass: 'resource-icon-purple',
-    title: 'Project Aurora Brief',
-    description: 'Project brief, scope, and Phase 2 plan for Project Aurora.',
+    title: 'DOC 1 — UK Narrative',
+    description: 'The core UK narrative document. Essential reading for anyone presenting or talking to partners at Xerocon.',
     href: '#',
-    linkLabel: 'Open in Confluence',
+    linkLabel: 'Open Doc',
   },
   {
     id: 3,
-    icon: '📋',
+    icon: '📖',
     iconClass: 'resource-icon-green',
-    title: 'OKR Tracker',
-    description: 'Live tracker for all team OKRs. Updated weekly by team leads.',
+    title: 'AB Storybook V2',
+    description: 'Latest version of the AB storybook. Use this as your reference for the Accountant & Bookkeeper story at Xerocon.',
     href: '#',
-    linkLabel: 'Open in Sheets',
+    linkLabel: 'Open Doc',
   },
   {
     id: 4,
-    icon: '💬',
+    icon: '📗',
     iconClass: 'resource-icon-orange',
-    title: 'Customer Feedback Templates',
-    description: 'Standardised templates for the new structured customer feedback loop.',
+    title: 'UK SB Storybook',
+    description: 'The UK Small Business storybook. Key for aligning on the SB narrative ahead of event conversations.',
     href: '#',
-    linkLabel: 'Open in Drive',
+    linkLabel: 'Open Doc',
   },
   {
     id: 5,
-    icon: '👥',
+    icon: '💬',
     iconClass: 'resource-icon-pink',
-    title: 'Team Capacity Planner',
-    description: 'July–September capacity view including leave, contractors, and projects.',
+    title: 'Regional Messaging Templates',
+    description: 'Messaging templates for both SB and AB audiences. Use these to ensure consistent partner communications.',
     href: '#',
-    linkLabel: 'Open in Sheets',
+    linkLabel: 'Open Doc',
   },
   {
     id: 6,
-    icon: '🔖',
+    icon: '🤝',
     iconClass: 'resource-icon-blue',
-    title: 'Ways of Working Guide',
-    description: 'Team norms, meeting cadences, decision frameworks, and escalation paths.',
+    title: 'Partner Sales Narrative',
+    description: 'The partner-facing sales narrative. Aligned to the Xerocon story and ready to use in partner conversations.',
     href: '#',
-    linkLabel: 'Open in Confluence',
+    linkLabel: 'Open Doc',
+  },
+  {
+    id: 7,
+    icon: '📊',
+    iconClass: 'resource-icon-purple',
+    title: 'Data Health SSOT',
+    description: 'Single source of truth for data health metrics. Reference this for any data-related questions at the event.',
+    href: '#',
+    linkLabel: 'Open Doc',
+  },
+  {
+    id: 8,
+    icon: '📄',
+    iconClass: 'resource-icon-green',
+    title: 'Smart Doc Capture SSOT',
+    description: 'Single source of truth for Smart Doc Capture. All key facts, figures, and talking points in one place.',
+    href: '#',
+    linkLabel: 'Open Doc',
   },
 ];
 
@@ -255,6 +244,11 @@ function NewsSection() {
               </div>
               <h3>{item.title}</h3>
               <p>{item.summary}</p>
+              {item.xeroconLink && (
+                <a href={item.xeroconLink} target="_blank" rel="noreferrer" className="resource-link-label">
+                  Read the Need to Know →
+                </a>
+              )}
               <div className="news-card-author">
                 <div className="avatar">{item.initials}</div>
                 {item.author}
@@ -405,9 +399,9 @@ function ContactSection() {
               Fill in the form and a team lead will get back to you.
             </p>
             {[
-              { icon: '📧', text: 'team-hub@example.com' },
+              { icon: '📧', text: 'sophie.creamer@xero.com' },
+              { icon: '📧', text: 'connor.barbour@xero.com' },
               { icon: '💬', text: '#team-hub on Slack' },
-              { icon: '📍', text: 'Auckland & Remote' },
             ].map(d => (
               <div key={d.text} className="contact-detail">
                 <div className="contact-detail-icon">{d.icon}</div>
